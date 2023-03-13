@@ -1,0 +1,30 @@
+[0.924s] Invoking command in '/mnt/d/users/karti/documents/kartik_ws/build/bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /mnt/d/users/karti/documents/kartik_ws/build/bot_description -- -j4 -l4
+[1.229s] Invoked command in '/mnt/d/users/karti/documents/kartik_ws/build/bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /mnt/d/users/karti/documents/kartik_ws/build/bot_description -- -j4 -l4
+[1.393s] Invoking command in '/mnt/d/users/karti/documents/kartik_ws/build/bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --install /mnt/d/users/karti/documents/kartik_ws/build/bot_description
+[1.420s] -- Install configuration: ""
+[1.530s] -- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/ament_index/resource_index/package_run_dependencies/bot_description
+[1.674s] -- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/ament_index/resource_index/parent_prefix_path/bot_description
+[1.742s] -- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/environment/ament_prefix_path.sh
+[1.850s] -- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/environment/ament_prefix_path.dsv
+[1.912s] -- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/environment/path.sh
+[2.030s] -- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/environment/path.dsv
+[2.092s] -- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/local_setup.bash
+[2.168s] -- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/local_setup.sh
+[2.243s] -- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/local_setup.zsh
+[2.316s] -- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/local_setup.dsv
+[2.397s] -- Installing: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/package.dsv
+[2.720s] -- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/ament_index/resource_index/packages/bot_description
+[2.811s] -- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/cmake/bot_descriptionConfig.cmake
+[2.877s] -- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/cmake/bot_descriptionConfig-version.cmake
+[2.968s] -- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/package.xml
+[3.027s] -- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/launch
+[3.167s] -- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/launch/control.launch.py
+[3.253s] -- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/launch/rviz.launch.py
+[3.335s] -- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/launch/spawn.launch.py
+[3.383s] -- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/rviz
+[3.468s] -- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/rviz/rviz_basic_settings.rviz
+[3.522s] -- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/src
+[3.603s] -- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/urdf
+[3.698s] -- Installing: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/urdf/bot_urdf.urdf
+[3.939s] -- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/worlds
+[3.994s] Invoked command in '/mnt/d/users/karti/documents/kartik_ws/build/bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --install /mnt/d/users/karti/documents/kartik_ws/build/bot_description

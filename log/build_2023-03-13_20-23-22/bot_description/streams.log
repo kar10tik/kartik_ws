@@ -1,0 +1,44 @@
+[2.191s] Invoking command in '/mnt/d/users/karti/documents/kartik_ws/build/bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake /mnt/d/users/karti/documents/kartik_ws/src/bot_description -DCMAKE_INSTALL_PREFIX=/mnt/d/users/karti/documents/kartik_ws/install/bot_description
+[7.338s] -- The C compiler identification is GNU 11.3.0
+[12.312s] -- The CXX compiler identification is GNU 11.3.0
+[15.665s] -- Detecting C compiler ABI info
+[19.933s] -- Detecting C compiler ABI info - done
+[20.180s] -- Check for working C compiler: /usr/bin/cc - skipped
+[20.191s] -- Detecting C compile features
+[20.199s] -- Detecting C compile features - done
+[21.383s] -- Detecting CXX compiler ABI info
+[28.251s] -- Detecting CXX compiler ABI info - done
+[28.395s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[28.411s] -- Detecting CXX compile features
+[28.421s] -- Detecting CXX compile features - done
+[30.283s] -- Found ament_cmake: 1.5.2 (/opt/ros/rolling/share/ament_cmake/cmake)
+[37.930s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[63.516s] -- Found ament_lint_auto: 0.13.2 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[86.228s] -- Added test 'flake8' to check Python code syntax and style conventions
+[87.351s] -- Added test 'lint_cmake' to check CMake code style
+[88.621s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[93.717s] -- Added test 'xmllint' to check XML markup files
+[95.975s] -- Configuring done
+[100.376s] -- Generating done
+[101.167s] -- Build files have been written to: /mnt/d/users/karti/documents/kartik_ws/build/bot_description
+[101.192s] Invoked command in '/mnt/d/users/karti/documents/kartik_ws/build/bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake /mnt/d/users/karti/documents/kartik_ws/src/bot_description -DCMAKE_INSTALL_PREFIX=/mnt/d/users/karti/documents/kartik_ws/install/bot_description
+[101.406s] Invoking command in '/mnt/d/users/karti/documents/kartik_ws/build/bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /mnt/d/users/karti/documents/kartik_ws/build/bot_description -- -j4 -l4
+[102.594s] Invoked command in '/mnt/d/users/karti/documents/kartik_ws/build/bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /mnt/d/users/karti/documents/kartik_ws/build/bot_description -- -j4 -l4
+[102.996s] Invoking command in '/mnt/d/users/karti/documents/kartik_ws/build/bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --install /mnt/d/users/karti/documents/kartik_ws/build/bot_description
+[103.043s] -- Install configuration: ""
+[103.458s] -- Installing: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/ament_index/resource_index/package_run_dependencies/bot_description
+[104.735s] -- Installing: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/ament_index/resource_index/parent_prefix_path/bot_description
+[105.715s] -- Installing: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/environment/ament_prefix_path.sh
+[106.136s] -- Installing: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/environment/ament_prefix_path.dsv
+[106.537s] -- Installing: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/environment/path.sh
+[106.916s] -- Installing: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/environment/path.dsv
+[107.371s] -- Installing: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/local_setup.bash
+[107.822s] -- Installing: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/local_setup.sh
+[108.203s] -- Installing: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/local_setup.zsh
+[108.602s] -- Installing: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/local_setup.dsv
+[109.043s] -- Installing: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/package.dsv
+[109.721s] -- Installing: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/ament_index/resource_index/packages/bot_description
+[110.452s] -- Installing: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/cmake/bot_descriptionConfig.cmake
+[110.959s] -- Installing: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/cmake/bot_descriptionConfig-version.cmake
+[111.544s] -- Installing: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/package.xml
+[111.907s] Invoked command in '/mnt/d/users/karti/documents/kartik_ws/build/bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --install /mnt/d/users/karti/documents/kartik_ws/build/bot_description

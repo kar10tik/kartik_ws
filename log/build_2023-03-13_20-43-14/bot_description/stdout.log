@@ -1,0 +1,26 @@
+-- Install configuration: ""
+-- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/ament_index/resource_index/package_run_dependencies/bot_description
+-- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/ament_index/resource_index/parent_prefix_path/bot_description
+-- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/environment/ament_prefix_path.sh
+-- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/environment/path.sh
+-- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/environment/path.dsv
+-- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/local_setup.bash
+-- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/local_setup.sh
+-- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/local_setup.zsh
+-- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/local_setup.dsv
+-- Installing: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/package.dsv
+-- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/ament_index/resource_index/packages/bot_description
+-- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/cmake/bot_descriptionConfig.cmake
+-- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/cmake/bot_descriptionConfig-version.cmake
+-- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/package.xml
+-- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/launch
+-- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/launch/control.launch.py
+-- Installing: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/launch/rviz.launch.py
+-- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/launch/spawn.launch.py
+-- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/rviz
+-- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/rviz/rviz_basic_settings.rviz
+-- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/src
+-- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/urdf
+-- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/urdf/bot_urdf.urdf
+-- Up-to-date: /mnt/d/users/karti/documents/kartik_ws/install/bot_description/share/bot_description/worlds
