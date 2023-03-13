@@ -1,0 +1,35 @@
+[1.473s] Invoking command in '/mnt/d/users/karti/documents/kartik_ws/build/bot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake /mnt/d/users/karti/documents/kartik_ws/src/bot_control -DCMAKE_INSTALL_PREFIX=/mnt/d/users/karti/documents/kartik_ws/install/bot_control
+[5.419s] -- The C compiler identification is GNU 11.3.0
+[13.304s] -- The CXX compiler identification is GNU 11.3.0
+[17.503s] -- Detecting C compiler ABI info
+[21.804s] -- Detecting C compiler ABI info - done
+[21.935s] -- Check for working C compiler: /usr/bin/cc - skipped
+[21.943s] -- Detecting C compile features
+[21.956s] -- Detecting C compile features - done
+[22.407s] -- Detecting CXX compiler ABI info
+[27.414s] -- Detecting CXX compiler ABI info - done
+[27.663s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[27.668s] -- Detecting CXX compile features
+[27.673s] -- Detecting CXX compile features - done
+[30.657s] -- Found ament_cmake: 1.5.2 (/opt/ros/rolling/share/ament_cmake/cmake)
+[41.414s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[84.189s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[84.193s]   By not providing "Findrospy.cmake" in CMAKE_MODULE_PATH this project has
+[84.197s]   asked CMake to find a package configuration file provided by "rospy", but
+[84.202s]   CMake did not find one.
+[84.207s] 
+[84.210s]   Could not find a package configuration file provided by "rospy" with any of
+[84.219s]   the following names:
+[84.225s] 
+[84.230s]     rospyConfig.cmake
+[84.237s]     rospy-config.cmake
+[84.246s] 
+[84.261s]   Add the installation prefix of "rospy" to CMAKE_PREFIX_PATH or set
+[84.289s]   "rospy_DIR" to a directory containing one of the above files.  If "rospy"
+[84.297s]   provides a separate development package or SDK, be sure it has been
+[84.307s]   installed.
+[84.314s] 
+[84.321s] [0m
+[84.325s] -- Configuring incomplete, errors occurred!
+[84.328s] See also "/mnt/d/users/karti/documents/kartik_ws/build/bot_control/CMakeFiles/CMakeOutput.log".
+[84.331s] Invoked command in '/mnt/d/users/karti/documents/kartik_ws/build/bot_control' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake /mnt/d/users/karti/documents/kartik_ws/src/bot_control -DCMAKE_INSTALL_PREFIX=/mnt/d/users/karti/documents/kartik_ws/install/bot_control

@@ -1,58 +1,74 @@
 <?xml version="1.0"?>
 <robot name="kartik_robot" xmlns:xacro="http://ros.org/wiki/xacro">
-  <!-- Chassis Dimensions -->
-  <xacro:property name="base_width" value="0.20"/>
-  <xacro:property name="base_length" value="0.20"/>
-  <xacro:property name="base_height" value="0.10"/>
-  <xacro:property name="wheel_radius" value="0.06"/>
-  <!-- x-axis points forward, y-axis points to left, z-axis points upwards -->
-  <!-- Define the gap between the wheel and chassis along y-axis in meters -->
-  <xacro:property name="wheel_ygap" value="0.035"/>
-  <xacro:property name="wheel_width" value="0.06"/>
-  <!-- Position the wheels along the z-axis -->
-  <xacro:property name="wheel_zoff" value="0.05"/>
 
-  <!-- Position the wheels along the x-axis -->
-  <xacro:property name="wheel_xoff" value="0.200"/>
-
-  <!-- Position the caster wheel along the x-axis -->
-  <xacro:property name="caster_xoff" value="0.239"/>
-
-  <link name="base_footprint"/>
-  <joint name="base_joint" type="fixed">
-    <parent link="base_footprint"/>
-    <child link="base_link" />
-    <origin xyz="0.0 0.0 ${(wheel_radius+wheel_zoff)}" rpy="0 0 0"/>
-  </joint>
-
-  <!-- ROBOT CHASSIS -->
   <link name="base_link">
     <visual>
-      <origin xyz="0 0 -0.05" rpy="1.5707963267949 0 3.141592654"/>
       <geometry>
-        <mesh filename="package://bot_description/meshes/robot_base.stl" />
+        <box size="0.2 0.2 0.1"/>
       </geometry>
-      <material name="Red">
-        <color rgba="${255/255} ${0/255} ${0/255} 1.0"/>
+      <origin rpy="0 0 0" xyz="0 0 0.085"/>
+      <material name="white">
+        <color rgba="1 1 1 1"/>
       </material>
     </visual>
-
-    <collision>
-      <geometry>
-        <box size="${base_length} ${base_width} ${base_height}"/>
-      </geometry>
-    </collision>
-
-    
   </link>
-
+  
   <gazebo reference="base_link">
-    <material>Gazebo/Red</material>
+    <material>Gazebo/White</material>
   </gazebo>
- <link name="front_caster">
+
+  <link name="lwheel">
     <visual>
       <geometry>
-        <sphere radius="${(wheel_radius+wheel_zoff-(base_height/2))}"/>
+        <cylinder length="0.008" radius="0.06"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <material name="black">
+        <color rgba="0 0 0 1"/>
+      </material>
+    </visual>
+  </link>
+  
+  <joint name="base_to_lwheel" type="fixed">
+    <parent link="base_link"/>
+    <child link="lwheel"/>
+    <origin xyz="0 0.115 0.046" rpy="1.5708 0 0"/>
+  </joint>
+  
+  <link name="rwheel">
+    <visual>
+      <geometry>
+        <cylinder length="0.008" radius="0.06"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <material name="black">
+        <color rgba="0 0 0 1"/>
+      </material>
+    </visual>
+  </link>
+  
+  <joint name="base_to_rwheel" type="fixed">
+    <parent link="base_link"/>
+    <child link="rwheel"/>
+    <origin xyz="0 -0.115 0.046" rpy="-1.5708 0 0"/>
+  </joint>
+  
+  <gazebo reference="front_caster">
+    <mu1>0.01</mu1>
+    <mu2>0.01</mu2>
+    <material>Gazebo/White</material>
+  </gazebo>
+
+  <joint name="caster_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="caster"/>
+    <origin xyz="0.039 0.0 0.05" rpy="0 0 0"/>
+  </joint>
+
+  <link name="caster">
+    <visual>
+      <geometry>
+        <sphere radius="0.03"/>
       </geometry>
       <material name="White">
         <color rgba="${255/255} ${255/255} ${255/255} 1.0"/>
@@ -61,84 +77,32 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <sphere radius="${(wheel_radius+wheel_zoff-(base_height/2))}"/>
+        <sphere radius="0.03"/>
       </geometry>
     </collision>
   </link>
 
-  <gazebo reference="front_caster">
-      <mu1>0.01</mu1>
-      <mu2>0.01</mu2>
-      <material>Gazebo/White</material>
-  </gazebo>
-
-  <joint name="caster_joint" type="fixed">
-    <parent link="base_link"/>
-    <child link="front_caster"/>
-    <origin xyz="${caster_xoff} 0.0 ${-(base_height/2)}" rpy="0 0 0"/>
-  </joint>
-
-<!--DRIVE WHEELS-->
-
-<xacro:macro name="wheel" params="prefix x_reflect y_reflect">
-    <link name="${prefix}_link">
-      <visual>
-        <origin xyz="0 0 0" rpy="1.5707963267949 0 0"/>
-        <geometry>
-            <cylinder radius="${wheel_radius}" length="${wheel_width}"/>
-        </geometry>
-        <material name="White">
-          <color rgba="${255/255} ${255/255} ${255/255} 1.0"/>
-        </material>
-      </visual>
-      
-      <collision>
-        <origin xyz="0 0 0" rpy="${pi/2} 0 0"/>
-        <geometry>
-          <cylinder radius="${wheel_radius}" length="${wheel_width}"/>
-        </geometry>
-      </collision>
-      
-    </link>
-
-    <!-- Connect the wheels to the base_link at the appropriate location, and 
-         define a continuous joint to allow the wheels to freely rotate about
-         an axis -->
-    <joint name="${prefix}_joint" type="revolute">
-      <parent link="base_link"/>
-      <child link="${prefix}_link"/>
-      <origin xyz="${x_reflect*wheel_xoff} ${y_reflect*(base_width/2+wheel_ygap)} ${-wheel_zoff}" rpy="0 0 0"/>
-      <limit upper="3.1415" lower="-3.1415" effort="30" velocity="5.0"/>
-      <axis xyz="0 1 0"/>
-    </joint>
-  </xacro:macro>
-
-  <!-- Instantiate two wheels using the macro we just made through the 
-       xacro:wheel tags. We also define the parameters to have one wheel
-       on both sides at the back of our robot (i.e. x_reflect=-1). -->
-  <xacro:wheel prefix="drivewhl_l" x_reflect="-1" y_reflect="1" />
-  <xacro:wheel prefix="drivewhl_r" x_reflect="-1" y_reflect="-1" />
 
   <!--LIDAR-->
   <joint name="lidar_joint" type="fixed">
     <parent link="base_link"/>
     <child link="lidar_link"/>
-    <origin xyz="0.215 0 0.13" rpy="0 0 0"/>
+    <origin xyz="0.025 0 0.2" rpy="0 0 0"/>
   </joint>
 
   <link name="lidar_link">
-  
+
     <collision>
      <origin xyz="0 0 0" rpy="0 0 0"/>
      <geometry>
-      <cylinder radius="0.0508" length="0.18"/>
+      <cylinder radius="0.02" length="0.1"/>
      </geometry>
     </collision>
     
     <visual>
      <origin xyz="0 0 0" rpy="0 0 0"/>
      <geometry>
-      <cylinder radius="0.0508" length="0.18"/>
+      <cylinder radius="0.02" length="0.1"/>
      </geometry>
      <material name="Black">
           <color rgba="${0/255} ${0/255} ${0/255} 1.0"/>
@@ -147,19 +111,23 @@
  
   </link>
 
+
   <!--RGB CAMERA-->
   <joint name="camera_joint" type="fixed">
       <parent link="base_link"/>
       <child link="camera_link"/>
-      <origin xyz="0.305 0 0.08" rpy="0 0 0"/>
+      <origin xyz="0.06 0 0.2" rpy="0 0 0"/>
   </joint>
 
   <link name="camera_link">
       <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-            <box size="0.010 0.03 0.03"/>
+            <box size="0.010 0 0.03"/>
         </geometry>
-        <!--material name="red"/-->
+        <material name="Red">
+          <color rgba="${255/255} ${0/255} ${0/255} 1.0"/>
+     </material>
       </visual>
   </link>
 

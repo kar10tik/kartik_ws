@@ -1,0 +1,22 @@
+[1.342s] Invoking command in '/mnt/d/users/karti/documents/kartik_ws/build/bot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake /mnt/d/users/karti/documents/kartik_ws/src/bot_control -DCMAKE_INSTALL_PREFIX=/mnt/d/users/karti/documents/kartik_ws/install/bot_control
+[1.735s] -- Found ament_cmake: 1.5.2 (/opt/ros/rolling/share/ament_cmake/cmake)
+[11.619s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[11.622s]   By not providing "Findrospy.cmake" in CMAKE_MODULE_PATH this project has
+[11.625s]   asked CMake to find a package configuration file provided by "rospy", but
+[11.632s]   CMake did not find one.
+[11.635s] 
+[11.640s]   Could not find a package configuration file provided by "rospy" with any of
+[11.648s]   the following names:
+[11.656s] 
+[11.660s]     rospyConfig.cmake
+[11.665s]     rospy-config.cmake
+[11.668s] 
+[11.673s]   Add the installation prefix of "rospy" to CMAKE_PREFIX_PATH or set
+[11.676s]   "rospy_DIR" to a directory containing one of the above files.  If "rospy"
+[11.683s]   provides a separate development package or SDK, be sure it has been
+[11.686s]   installed.
+[11.690s] 
+[11.694s] [0m
+[11.697s] -- Configuring incomplete, errors occurred!
+[11.702s] See also "/mnt/d/users/karti/documents/kartik_ws/build/bot_control/CMakeFiles/CMakeOutput.log".
+[11.722s] Invoked command in '/mnt/d/users/karti/documents/kartik_ws/build/bot_control' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake /mnt/d/users/karti/documents/kartik_ws/src/bot_control -DCMAKE_INSTALL_PREFIX=/mnt/d/users/karti/documents/kartik_ws/install/bot_control
