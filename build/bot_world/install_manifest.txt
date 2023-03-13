@@ -1,0 +1,15 @@
+/mnt/d/users/karti/documents/kartik_ws/install/bot_world/share/ament_index/resource_index/package_run_dependencies/bot_world
+/mnt/d/users/karti/documents/kartik_ws/install/bot_world/share/ament_index/resource_index/parent_prefix_path/bot_world
+/mnt/d/users/karti/documents/kartik_ws/install/bot_world/share/bot_world/environment/ament_prefix_path.sh
+/mnt/d/users/karti/documents/kartik_ws/install/bot_world/share/bot_world/environment/ament_prefix_path.dsv
+/mnt/d/users/karti/documents/kartik_ws/install/bot_world/share/bot_world/environment/path.sh
+/mnt/d/users/karti/documents/kartik_ws/install/bot_world/share/bot_world/environment/path.dsv
+/mnt/d/users/karti/documents/kartik_ws/install/bot_world/share/bot_world/local_setup.bash
+/mnt/d/users/karti/documents/kartik_ws/install/bot_world/share/bot_world/local_setup.sh
+/mnt/d/users/karti/documents/kartik_ws/install/bot_world/share/bot_world/local_setup.zsh
+/mnt/d/users/karti/documents/kartik_ws/install/bot_world/share/bot_world/local_setup.dsv
+/mnt/d/users/karti/documents/kartik_ws/install/bot_world/share/bot_world/package.dsv
+/mnt/d/users/karti/documents/kartik_ws/install/bot_world/share/ament_index/resource_index/packages/bot_world
+/mnt/d/users/karti/documents/kartik_ws/install/bot_world/share/bot_world/cmake/bot_worldConfig.cmake
+/mnt/d/users/karti/documents/kartik_ws/install/bot_world/share/bot_world/cmake/bot_worldConfig-version.cmake
+/mnt/d/users/karti/documents/kartik_ws/install/bot_world/share/bot_world/package.xml

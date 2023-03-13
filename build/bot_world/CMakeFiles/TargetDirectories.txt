@@ -1,0 +1,9 @@
+/mnt/d/users/karti/documents/kartik_ws/build/bot_world/CMakeFiles/uninstall.dir
+/mnt/d/users/karti/documents/kartik_ws/build/bot_world/CMakeFiles/bot_world_uninstall.dir
+/mnt/d/users/karti/documents/kartik_ws/build/bot_world/CMakeFiles/test.dir
+/mnt/d/users/karti/documents/kartik_ws/build/bot_world/CMakeFiles/edit_cache.dir
+/mnt/d/users/karti/documents/kartik_ws/build/bot_world/CMakeFiles/rebuild_cache.dir
+/mnt/d/users/karti/documents/kartik_ws/build/bot_world/CMakeFiles/list_install_components.dir
+/mnt/d/users/karti/documents/kartik_ws/build/bot_world/CMakeFiles/install.dir
+/mnt/d/users/karti/documents/kartik_ws/build/bot_world/CMakeFiles/install/local.dir
+/mnt/d/users/karti/documents/kartik_ws/build/bot_world/CMakeFiles/install/strip.dir
