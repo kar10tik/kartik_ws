@@ -121,7 +121,6 @@
 
   <link name="camera_link">
       <visual>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
             <box size="0.010 0 0.03"/>
         </geometry>

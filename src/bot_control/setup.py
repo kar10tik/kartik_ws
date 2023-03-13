@@ -19,7 +19,8 @@ setup(
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': [
+        'console_scripts': ['talker = bot_control.laser_scan_publisher:main',
+                            'listener = bot_control.scripts.reading_laser:main',
         ],
     },
 )

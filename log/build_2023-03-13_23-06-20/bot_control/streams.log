@@ -1,0 +1,35 @@
+[13.316s] Invoking command in '/mnt/d/users/karti/documents/kartik_ws/src/bot_control': PYTHONPATH=/mnt/d/users/karti/documents/kartik_ws/build/bot_control/prefix_override:/mnt/d/users/karti/documents/kartik_ws/install/bot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bot_control build --build-base /mnt/d/users/karti/documents/kartik_ws/build/bot_control/build install --record /mnt/d/users/karti/documents/kartik_ws/build/bot_control/install.log --single-version-externally-managed
+[17.809s] running egg_info
+[17.839s] creating ../../build/bot_control/bot_control.egg-info
+[17.856s] writing ../../build/bot_control/bot_control.egg-info/PKG-INFO
+[17.904s] writing dependency_links to ../../build/bot_control/bot_control.egg-info/dependency_links.txt
+[17.944s] writing entry points to ../../build/bot_control/bot_control.egg-info/entry_points.txt
+[17.973s] writing requirements to ../../build/bot_control/bot_control.egg-info/requires.txt
+[17.993s] writing top-level names to ../../build/bot_control/bot_control.egg-info/top_level.txt
+[18.031s] writing manifest file '../../build/bot_control/bot_control.egg-info/SOURCES.txt'
+[18.204s] reading manifest file '../../build/bot_control/bot_control.egg-info/SOURCES.txt'
+[18.595s] writing manifest file '../../build/bot_control/bot_control.egg-info/SOURCES.txt'
+[18.625s] running build
+[18.631s] running build_py
+[18.669s] creating /mnt/d/users/karti/documents/kartik_ws/build/bot_control/build
+[18.682s] creating /mnt/d/users/karti/documents/kartik_ws/build/bot_control/build/lib
+[18.695s] creating /mnt/d/users/karti/documents/kartik_ws/build/bot_control/build/lib/bot_control
+[18.769s] copying bot_control/__init__.py -> /mnt/d/users/karti/documents/kartik_ws/build/bot_control/build/lib/bot_control
+[18.867s] running install
+[18.874s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[18.879s]   warnings.warn(
+[18.886s] running install_lib
+[19.038s] creating /mnt/d/users/karti/documents/kartik_ws/install/bot_control/lib/python3.10/site-packages/bot_control
+[19.171s] copying /mnt/d/users/karti/documents/kartik_ws/build/bot_control/build/lib/bot_control/__init__.py -> /mnt/d/users/karti/documents/kartik_ws/install/bot_control/lib/python3.10/site-packages/bot_control
+[19.421s] byte-compiling /mnt/d/users/karti/documents/kartik_ws/install/bot_control/lib/python3.10/site-packages/bot_control/__init__.py to __init__.cpython-310.pyc
+[19.674s] running install_data
+[19.727s] creating /mnt/d/users/karti/documents/kartik_ws/install/bot_control/share/ament_index
+[19.742s] creating /mnt/d/users/karti/documents/kartik_ws/install/bot_control/share/ament_index/resource_index
+[19.759s] creating /mnt/d/users/karti/documents/kartik_ws/install/bot_control/share/ament_index/resource_index/packages
+[19.838s] copying resource/bot_control -> /mnt/d/users/karti/documents/kartik_ws/install/bot_control/share/ament_index/resource_index/packages
+[20.016s] copying package.xml -> /mnt/d/users/karti/documents/kartik_ws/install/bot_control/share/bot_control
+[20.115s] running install_egg_info
+[20.250s] Copying ../../build/bot_control/bot_control.egg-info to /mnt/d/users/karti/documents/kartik_ws/install/bot_control/lib/python3.10/site-packages/bot_control-0.0.0-py3.10.egg-info
+[23.410s] running install_scripts
+[24.120s] writing list of installed files to '/mnt/d/users/karti/documents/kartik_ws/build/bot_control/install.log'
+[24.292s] Invoked command in '/mnt/d/users/karti/documents/kartik_ws/src/bot_control' returned '0': PYTHONPATH=/mnt/d/users/karti/documents/kartik_ws/build/bot_control/prefix_override:/mnt/d/users/karti/documents/kartik_ws/install/bot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bot_control build --build-base /mnt/d/users/karti/documents/kartik_ws/build/bot_control/build install --record /mnt/d/users/karti/documents/kartik_ws/build/bot_control/install.log --single-version-externally-managed
