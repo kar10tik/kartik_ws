@@ -13,20 +13,20 @@ def generate_launch_description():
  
   # Constants for paths to different files and folders
   gazebo_models_path = 'models'
-  package_name = 'bot_description'
+  package_name = 'bot_world'
   robot_name_in_model = 'kartik_robot'
   rviz_config_file_path = 'rviz/urdf_gazebo_config.rviz'
   urdf_file_path = 'urdf/bot_urdf.urdf'
-  world_file_path = 'worlds/neighborhood.world'
+  world_file_path = 'worlds/robot_world.world'
      
   # Pose where we want to spawn the robot
   spawn_x_val = '0.0'
   spawn_y_val = '0.0'
   spawn_z_val = '0.0'
   spawn_yaw_val = '0.00'
- 
-  ############ You do not need to change anything below this line #############
+
    
+
   # Set the path to different files and folders.  
   pkg_gazebo_ros = FindPackageShare(package='gazebo_ros').find('gazebo_ros')   
   pkg_share = FindPackageShare(package=package_name).find(package_name)
