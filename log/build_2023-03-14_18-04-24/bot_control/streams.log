@@ -1,0 +1,24 @@
+[10.983s] Invoking command in '/mnt/d/users/karti/documents/kartik_ws/src/bot_control': PYTHONPATH=/mnt/d/users/karti/documents/kartik_ws/build/bot_control/prefix_override:/mnt/d/users/karti/documents/kartik_ws/install/bot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bot_control build --build-base /mnt/d/users/karti/documents/kartik_ws/build/bot_control/build install --record /mnt/d/users/karti/documents/kartik_ws/build/bot_control/install.log --single-version-externally-managed
+[14.704s] running egg_info
+[14.734s] writing ../../build/bot_control/bot_control.egg-info/PKG-INFO
+[14.772s] writing dependency_links to ../../build/bot_control/bot_control.egg-info/dependency_links.txt
+[14.814s] writing entry points to ../../build/bot_control/bot_control.egg-info/entry_points.txt
+[14.842s] writing requirements to ../../build/bot_control/bot_control.egg-info/requires.txt
+[14.861s] writing top-level names to ../../build/bot_control/bot_control.egg-info/top_level.txt
+[15.043s] reading manifest file '../../build/bot_control/bot_control.egg-info/SOURCES.txt'
+[15.417s] writing manifest file '../../build/bot_control/bot_control.egg-info/SOURCES.txt'
+[15.438s] running build
+[15.442s] running build_py
+[15.597s] running install
+[15.601s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[15.608s]   warnings.warn(
+[15.612s] running install_lib
+[16.109s] running install_data
+[16.238s] running install_egg_info
+[16.287s] removing '/mnt/d/users/karti/documents/kartik_ws/install/bot_control/lib/python3.10/site-packages/bot_control-0.0.0-py3.10.egg-info' (and everything under it)
+[16.590s] Copying ../../build/bot_control/bot_control.egg-info to /mnt/d/users/karti/documents/kartik_ws/install/bot_control/lib/python3.10/site-packages/bot_control-0.0.0-py3.10.egg-info
+[18.019s] running install_scripts
+[18.368s] Installing listener script to /mnt/d/users/karti/documents/kartik_ws/install/bot_control/lib/bot_control
+[18.428s] Installing talker script to /mnt/d/users/karti/documents/kartik_ws/install/bot_control/lib/bot_control
+[18.494s] writing list of installed files to '/mnt/d/users/karti/documents/kartik_ws/build/bot_control/install.log'
+[18.580s] Invoked command in '/mnt/d/users/karti/documents/kartik_ws/src/bot_control' returned '0': PYTHONPATH=/mnt/d/users/karti/documents/kartik_ws/build/bot_control/prefix_override:/mnt/d/users/karti/documents/kartik_ws/install/bot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bot_control build --build-base /mnt/d/users/karti/documents/kartik_ws/build/bot_control/build install --record /mnt/d/users/karti/documents/kartik_ws/build/bot_control/install.log --single-version-externally-managed

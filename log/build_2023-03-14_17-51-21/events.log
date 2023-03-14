@@ -1,0 +1,244 @@
+[0.000000] (-) TimerEvent: {}
+[0.003401] (-) JobUnselected: {'identifier': 'bot_description'}
+[0.005056] (-) JobUnselected: {'identifier': 'bot_world'}
+[0.006105] (bot_control) JobQueued: {'identifier': 'bot_control', 'dependencies': OrderedDict()}
+[0.008569] (bot_control) JobStarted: {'identifier': 'bot_control'}
+[0.089166] (-) TimerEvent: {}
+[0.191275] (-) TimerEvent: {}
+[0.294442] (-) TimerEvent: {}
+[0.396444] (-) TimerEvent: {}
+[0.500635] (-) TimerEvent: {}
+[0.602399] (-) TimerEvent: {}
+[0.704505] (-) TimerEvent: {}
+[0.806090] (-) TimerEvent: {}
+[0.907477] (-) TimerEvent: {}
+[1.010012] (-) TimerEvent: {}
+[1.111676] (-) TimerEvent: {}
+[1.213797] (-) TimerEvent: {}
+[1.532062] (-) TimerEvent: {}
+[1.686106] (-) TimerEvent: {}
+[1.918148] (-) TimerEvent: {}
+[2.101544] (-) TimerEvent: {}
+[2.240743] (-) TimerEvent: {}
+[2.360259] (-) TimerEvent: {}
+[2.549141] (-) TimerEvent: {}
+[2.658339] (-) TimerEvent: {}
+[2.764208] (-) TimerEvent: {}
+[2.872560] (-) TimerEvent: {}
+[2.977701] (-) TimerEvent: {}
+[3.079378] (-) TimerEvent: {}
+[3.181157] (-) TimerEvent: {}
+[3.282947] (-) TimerEvent: {}
+[3.384408] (-) TimerEvent: {}
+[3.486747] (-) TimerEvent: {}
+[3.588176] (-) TimerEvent: {}
+[3.689992] (-) TimerEvent: {}
+[3.794202] (-) TimerEvent: {}
+[3.896522] (-) TimerEvent: {}
+[3.998105] (-) TimerEvent: {}
+[4.099449] (-) TimerEvent: {}
+[4.200883] (-) TimerEvent: {}
+[4.303303] (-) TimerEvent: {}
+[4.404718] (-) TimerEvent: {}
+[4.506295] (-) TimerEvent: {}
+[4.607761] (-) TimerEvent: {}
+[4.709277] (-) TimerEvent: {}
+[4.810985] (-) TimerEvent: {}
+[4.912775] (-) TimerEvent: {}
+[5.014277] (-) TimerEvent: {}
+[5.115945] (-) TimerEvent: {}
+[5.217515] (-) TimerEvent: {}
+[5.319976] (-) TimerEvent: {}
+[5.421820] (-) TimerEvent: {}
+[5.523623] (-) TimerEvent: {}
+[5.625303] (-) TimerEvent: {}
+[5.726857] (-) TimerEvent: {}
+[5.828733] (-) TimerEvent: {}
+[5.930653] (-) TimerEvent: {}
+[6.032544] (-) TimerEvent: {}
+[6.134173] (-) TimerEvent: {}
+[6.236068] (-) TimerEvent: {}
+[6.338158] (-) TimerEvent: {}
+[6.446187] (-) TimerEvent: {}
+[6.547717] (-) TimerEvent: {}
+[6.649147] (-) TimerEvent: {}
+[6.750794] (-) TimerEvent: {}
+[6.852298] (-) TimerEvent: {}
+[6.954116] (-) TimerEvent: {}
+[7.055870] (-) TimerEvent: {}
+[7.157354] (-) TimerEvent: {}
+[7.259130] (-) TimerEvent: {}
+[7.361091] (-) TimerEvent: {}
+[7.462728] (-) TimerEvent: {}
+[7.565771] (-) TimerEvent: {}
+[7.668038] (-) TimerEvent: {}
+[7.769906] (-) TimerEvent: {}
+[7.871361] (-) TimerEvent: {}
+[7.972897] (-) TimerEvent: {}
+[8.074304] (-) TimerEvent: {}
+[8.175988] (-) TimerEvent: {}
+[8.278841] (-) TimerEvent: {}
+[8.380304] (-) TimerEvent: {}
+[8.481834] (-) TimerEvent: {}
+[8.584924] (-) TimerEvent: {}
+[8.686965] (-) TimerEvent: {}
+[8.788911] (-) TimerEvent: {}
+[8.890896] (-) TimerEvent: {}
+[8.992655] (-) TimerEvent: {}
+[9.094742] (-) TimerEvent: {}
+[9.196388] (-) TimerEvent: {}
+[9.299389] (-) TimerEvent: {}
+[9.400959] (-) TimerEvent: {}
+[9.502662] (-) TimerEvent: {}
+[9.604327] (-) TimerEvent: {}
+[9.706000] (-) TimerEvent: {}
+[9.807989] (-) TimerEvent: {}
+[9.910337] (-) TimerEvent: {}
+[10.012553] (-) TimerEvent: {}
+[10.114308] (-) TimerEvent: {}
+[10.218228] (-) TimerEvent: {}
+[10.319821] (-) TimerEvent: {}
+[10.421246] (-) TimerEvent: {}
+[10.522918] (-) TimerEvent: {}
+[10.624483] (-) TimerEvent: {}
+[10.726779] (-) TimerEvent: {}
+[10.828329] (-) TimerEvent: {}
+[10.930409] (-) TimerEvent: {}
+[11.032346] (-) TimerEvent: {}
+[11.134085] (-) TimerEvent: {}
+[11.235825] (-) TimerEvent: {}
+[11.337652] (-) TimerEvent: {}
+[11.439010] (-) TimerEvent: {}
+[11.540715] (-) TimerEvent: {}
+[11.642431] (-) TimerEvent: {}
+[11.743994] (-) TimerEvent: {}
+[11.845800] (-) TimerEvent: {}
+[11.947701] (-) TimerEvent: {}
+[12.049404] (-) TimerEvent: {}
+[12.151032] (-) TimerEvent: {}
+[12.252981] (-) TimerEvent: {}
+[12.327214] (bot_control) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/bot_control', 'build', '--build-base', '/mnt/d/users/karti/documents/kartik_ws/build/bot_control/build', 'install', '--record', '/mnt/d/users/karti/documents/kartik_ws/build/bot_control/install.log', '--single-version-externally-managed'], 'cwd': '/mnt/d/users/karti/documents/kartik_ws/src/bot_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kart1004', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/kart1004', 'OLDPWD': '/mnt/d/users/karti/documents/kartik_ws/src', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu', '_colcon_cd_root': '/home/kart1004/mnt/d/Users/karti/Documents/ROS_Projects', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/mnt/d/users/karti/documents/kartik_ws/install:/mnt/d/users/karti/Documents/ROS_Projects/install', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'kart1004', 'NAME': 'DESKTOP-MV1VGTN', 'WSL_INTEROP': '/run/WSL/7253_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/kart1004/mnt/d/Users/karti/Documents/ROS_Projectc/src/two_wheeled_robot/models/two_wheeled_robot_description', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/kart1004/.local/bin:/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Polyspace/R2019b/runtime/win64:/mnt/c/Program Files/Polyspace/R2019b/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/d/Program Files/gs/gs10.00.0/bin:/mnt/c/Program Files/Polyspace/R2021a/runtime/win64:/mnt/c/Program Files/Polyspace/R2021a/bin:/mnt/c/Users/HP/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/HP/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/HP/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/HP/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/mingw64/bin:/mnt/d/Program Files/PostgreSQL/15/bin:/mnt/d/Program Files/PostgreSQL/15/lib:/snap/bin', 'WT_SESSION': 'f5f251a9-f873-473f-9824-acc53df45338', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/mnt/d/users/karti/documents/kartik_ws/install/bot_world:/mnt/d/users/karti/documents/kartik_ws/install/bot_control:/mnt/d/users/karti/documents/kartik_ws/install/bot_description:/mnt/d/users/karti/Documents/ROS_Projects/install/two_wheeled_robot:/mnt/d/users/karti/Documents/ROS_Projects/install/kartik_ws:/mnt/d/users/karti/Documents/ROS_Projects/install/ddwmr_description:/opt/ros/rolling', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'FLIGHTMARE_PATH': '/home/kart1004/flightmare', 'PWD': '/mnt/d/users/karti/documents/kartik_ws/build/bot_control', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/d/users/karti/documents/kartik_ws/build/bot_control/prefix_override:/mnt/d/users/karti/documents/kartik_ws/install/bot_control/lib/python3.10/site-packages:/mnt/d/users/karti/documents/kartik_ws/install/bot_control/lib/python3.10/site-packages:/opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/rolling/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/mnt/d/users/karti/documents/kartik_ws/install/bot_world:/mnt/d/users/karti/documents/kartik_ws/install/bot_description:/mnt/d/users/karti/Documents/ROS_Projects/install/two_wheeled_robot:/mnt/d/users/karti/Documents/ROS_Projects/install/kartik_ws:/mnt/d/users/karti/Documents/ROS_Projects/install/ddwmr_description', 'WSLENV': 'WT_SESSION::WT_PROFILE_ID'}, 'shell': False}
+[12.393930] (-) TimerEvent: {}
+[12.495430] (-) TimerEvent: {}
+[12.597218] (-) TimerEvent: {}
+[12.699026] (-) TimerEvent: {}
+[12.800723] (-) TimerEvent: {}
+[12.902798] (-) TimerEvent: {}
+[13.004556] (-) TimerEvent: {}
+[13.106442] (-) TimerEvent: {}
+[13.207979] (-) TimerEvent: {}
+[13.312314] (-) TimerEvent: {}
+[13.414104] (-) TimerEvent: {}
+[13.515656] (-) TimerEvent: {}
+[13.617161] (-) TimerEvent: {}
+[13.718870] (-) TimerEvent: {}
+[13.820977] (-) TimerEvent: {}
+[13.923838] (-) TimerEvent: {}
+[14.025742] (-) TimerEvent: {}
+[14.127404] (-) TimerEvent: {}
+[14.229381] (-) TimerEvent: {}
+[14.332366] (-) TimerEvent: {}
+[14.435136] (-) TimerEvent: {}
+[14.537053] (-) TimerEvent: {}
+[14.639293] (-) TimerEvent: {}
+[14.742265] (-) TimerEvent: {}
+[14.845312] (-) TimerEvent: {}
+[14.947236] (-) TimerEvent: {}
+[15.049068] (-) TimerEvent: {}
+[15.150672] (-) TimerEvent: {}
+[15.252305] (-) TimerEvent: {}
+[15.354144] (-) TimerEvent: {}
+[15.455911] (-) TimerEvent: {}
+[15.559851] (-) TimerEvent: {}
+[15.661461] (-) TimerEvent: {}
+[15.763689] (-) TimerEvent: {}
+[15.865371] (-) TimerEvent: {}
+[15.967562] (-) TimerEvent: {}
+[16.069484] (-) TimerEvent: {}
+[16.171207] (-) TimerEvent: {}
+[16.273084] (-) TimerEvent: {}
+[16.344314] (bot_control) StdoutLine: {'line': b'running egg_info\n'}
+[16.373302] (-) TimerEvent: {}
+[16.377593] (bot_control) StdoutLine: {'line': b'writing ../../build/bot_control/bot_control.egg-info/PKG-INFO\n'}
+[16.424119] (bot_control) StdoutLine: {'line': b'writing dependency_links to ../../build/bot_control/bot_control.egg-info/dependency_links.txt\n'}
+[16.462376] (bot_control) StdoutLine: {'line': b'writing entry points to ../../build/bot_control/bot_control.egg-info/entry_points.txt\n'}
+[16.473614] (-) TimerEvent: {}
+[16.491543] (bot_control) StdoutLine: {'line': b'writing requirements to ../../build/bot_control/bot_control.egg-info/requires.txt\n'}
+[16.513137] (bot_control) StdoutLine: {'line': b'writing top-level names to ../../build/bot_control/bot_control.egg-info/top_level.txt\n'}
+[16.573901] (-) TimerEvent: {}
+[16.675621] (-) TimerEvent: {}
+[16.713617] (bot_control) StdoutLine: {'line': b"reading manifest file '../../build/bot_control/bot_control.egg-info/SOURCES.txt'\n"}
+[16.775938] (-) TimerEvent: {}
+[16.877527] (-) TimerEvent: {}
+[16.979256] (-) TimerEvent: {}
+[17.080993] (-) TimerEvent: {}
+[17.136210] (bot_control) StdoutLine: {'line': b"writing manifest file '../../build/bot_control/bot_control.egg-info/SOURCES.txt'\n"}
+[17.159098] (bot_control) StdoutLine: {'line': b'running build\n'}
+[17.164428] (bot_control) StdoutLine: {'line': b'running build_py\n'}
+[17.181252] (-) TimerEvent: {}
+[17.283027] (-) TimerEvent: {}
+[17.331596] (bot_control) StdoutLine: {'line': b'running install\n'}
+[17.335934] (bot_control) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[17.340672] (bot_control) StderrLine: {'line': b'  warnings.warn(\n'}
+[17.345756] (bot_control) StdoutLine: {'line': b'running install_lib\n'}
+[17.383291] (-) TimerEvent: {}
+[17.485122] (-) TimerEvent: {}
+[17.587567] (-) TimerEvent: {}
+[17.689834] (-) TimerEvent: {}
+[17.801085] (-) TimerEvent: {}
+[17.902686] (-) TimerEvent: {}
+[17.903804] (bot_control) StdoutLine: {'line': b'running install_data\n'}
+[18.002902] (-) TimerEvent: {}
+[18.062819] (bot_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[18.103121] (-) TimerEvent: {}
+[18.121749] (bot_control) StdoutLine: {'line': b"removing '/mnt/d/users/karti/documents/kartik_ws/install/bot_control/lib/python3.10/site-packages/bot_control-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[18.203362] (-) TimerEvent: {}
+[18.305394] (-) TimerEvent: {}
+[18.407311] (-) TimerEvent: {}
+[18.474585] (bot_control) StdoutLine: {'line': b'Copying ../../build/bot_control/bot_control.egg-info to /mnt/d/users/karti/documents/kartik_ws/install/bot_control/lib/python3.10/site-packages/bot_control-0.0.0-py3.10.egg-info\n'}
+[18.507573] (-) TimerEvent: {}
+[18.610172] (-) TimerEvent: {}
+[18.714135] (-) TimerEvent: {}
+[18.819127] (-) TimerEvent: {}
+[18.920626] (-) TimerEvent: {}
+[19.022273] (-) TimerEvent: {}
+[19.123891] (-) TimerEvent: {}
+[19.225521] (-) TimerEvent: {}
+[19.327148] (-) TimerEvent: {}
+[19.428973] (-) TimerEvent: {}
+[19.531177] (-) TimerEvent: {}
+[19.633039] (-) TimerEvent: {}
+[19.734954] (-) TimerEvent: {}
+[19.837719] (-) TimerEvent: {}
+[19.939792] (-) TimerEvent: {}
+[19.967965] (bot_control) StdoutLine: {'line': b'running install_scripts\n'}
+[20.040023] (-) TimerEvent: {}
+[20.142318] (-) TimerEvent: {}
+[20.244077] (-) TimerEvent: {}
+[20.346496] (-) TimerEvent: {}
+[20.383409] (bot_control) StdoutLine: {'line': b'Installing listener script to /mnt/d/users/karti/documents/kartik_ws/install/bot_control/lib/bot_control\n'}
+[20.446723] (-) TimerEvent: {}
+[20.457402] (bot_control) StdoutLine: {'line': b'Installing talker script to /mnt/d/users/karti/documents/kartik_ws/install/bot_control/lib/bot_control\n'}
+[20.536119] (bot_control) StdoutLine: {'line': b"writing list of installed files to '/mnt/d/users/karti/documents/kartik_ws/build/bot_control/install.log'\n"}
+[20.546951] (-) TimerEvent: {}
+[20.622878] (bot_control) CommandEnded: {'returncode': 0}
+[20.647173] (-) TimerEvent: {}
+[20.748756] (-) TimerEvent: {}
+[20.850360] (-) TimerEvent: {}
+[20.952064] (-) TimerEvent: {}
+[21.053793] (-) TimerEvent: {}
+[21.155290] (-) TimerEvent: {}
+[21.257417] (-) TimerEvent: {}
+[21.359071] (-) TimerEvent: {}
+[21.460844] (-) TimerEvent: {}
+[21.562511] (-) TimerEvent: {}
+[21.664151] (-) TimerEvent: {}
+[21.765964] (-) TimerEvent: {}
+[21.867561] (-) TimerEvent: {}
+[21.969297] (-) TimerEvent: {}
+[22.070981] (-) TimerEvent: {}
+[22.173602] (-) TimerEvent: {}
+[22.275205] (-) TimerEvent: {}
+[22.329927] (bot_control) JobEnded: {'identifier': 'bot_control', 'rc': 0}
+[22.400060] (-) TimerEvent: {}
+[22.401330] (-) EventReactorShutdown: {}

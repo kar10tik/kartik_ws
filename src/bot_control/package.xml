@@ -7,7 +7,7 @@
   <maintainer email="kart1004@todo.todo">kart1004</maintainer>
   <license>TODO: License declaration</license>
 
-  <depend>rospy</depend>
+  <depend>rclpy</depend>
   <depend>std_msgs</depend>
   <depend>geometry_msgs</depend>
   <depend>sensor_msgs</depend>

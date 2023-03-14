@@ -11,6 +11,9 @@ setup.py
 bot_control/__init__.py
 bot_control/laser_scan_publisher.py
 resource/bot_control
+scripts/__init__.py
+scripts/move.py
+scripts/reading_laser.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

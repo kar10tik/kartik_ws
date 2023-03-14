@@ -1,0 +1,54 @@
+[0.000000] (-) TimerEvent: {}
+[0.004405] (-) JobUnselected: {'identifier': 'bot_description'}
+[0.007432] (-) JobUnselected: {'identifier': 'bot_world'}
+[0.008630] (bot_control) JobQueued: {'identifier': 'bot_control', 'dependencies': OrderedDict()}
+[0.009727] (bot_control) JobStarted: {'identifier': 'bot_control'}
+[0.091723] (-) TimerEvent: {}
+[0.194504] (-) TimerEvent: {}
+[0.296955] (-) TimerEvent: {}
+[0.398832] (-) TimerEvent: {}
+[0.500430] (-) TimerEvent: {}
+[0.602429] (-) TimerEvent: {}
+[0.704818] (-) TimerEvent: {}
+[0.807553] (-) TimerEvent: {}
+[0.909610] (-) TimerEvent: {}
+[1.011407] (-) TimerEvent: {}
+[1.113417] (-) TimerEvent: {}
+[1.217586] (-) TimerEvent: {}
+[1.319286] (-) TimerEvent: {}
+[1.421160] (-) TimerEvent: {}
+[1.525008] (-) TimerEvent: {}
+[1.626861] (-) TimerEvent: {}
+[1.729057] (-) TimerEvent: {}
+[1.833702] (-) TimerEvent: {}
+[1.935339] (-) TimerEvent: {}
+[2.037000] (-) TimerEvent: {}
+[2.138682] (-) TimerEvent: {}
+[2.240078] (-) TimerEvent: {}
+[2.341828] (-) TimerEvent: {}
+[2.443380] (-) TimerEvent: {}
+[2.545934] (-) TimerEvent: {}
+[2.647392] (-) TimerEvent: {}
+[2.749316] (-) TimerEvent: {}
+[2.851053] (-) TimerEvent: {}
+[2.953012] (-) TimerEvent: {}
+[3.055111] (-) TimerEvent: {}
+[3.158235] (-) TimerEvent: {}
+[3.259962] (-) TimerEvent: {}
+[3.361399] (-) TimerEvent: {}
+[3.463804] (-) TimerEvent: {}
+[3.565228] (-) TimerEvent: {}
+[3.668615] (-) TimerEvent: {}
+[3.770210] (-) TimerEvent: {}
+[3.871615] (-) TimerEvent: {}
+[3.973219] (-) TimerEvent: {}
+[4.074847] (-) TimerEvent: {}
+[4.177356] (-) TimerEvent: {}
+[4.279246] (-) TimerEvent: {}
+[4.381312] (-) TimerEvent: {}
+[4.482678] (-) TimerEvent: {}
+[4.584770] (-) TimerEvent: {}
+[4.646041] (bot_control) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 241, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 288, in _get_setup_information\n    result = subprocess.run(\n  File "/usr/lib/python3.10/subprocess.py", line 524, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', \'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \\\'setup.py\\\', script_args=(\\\'--dry-run\\\',), stop_after=\\\'config\\\');skip_keys = (\\\'cmdclass\\\', \\\'distclass\\\', \\\'ext_modules\\\', \\\'metadata\\\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\\\'_\\\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\\\'metadata\\\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\\\'license_files\\\', \\\'provides_extras\\\')};sys.stdout.buffer.write(repr(data).encode(\\\'utf-8\\\'))\']\' returned non-zero exit status 1.\n'}
+[4.690738] (-) TimerEvent: {}
+[4.691826] (bot_control) JobEnded: {'identifier': 'bot_control', 'rc': 1}
+[4.767400] (-) EventReactorShutdown: {}

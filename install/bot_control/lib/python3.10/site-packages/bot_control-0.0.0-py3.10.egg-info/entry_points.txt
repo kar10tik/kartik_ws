@@ -1,4 +1,4 @@
 [console_scripts]
-listener = bot_control.scripts.reading_laser:main
+listener = scripts.reading_laser:main
 talker = bot_control.laser_scan_publisher:main
 
